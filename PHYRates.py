@@ -7,7 +7,7 @@
 #
 
 import sys
-# sys.path.append('Scapy') # Uncomment this if you've got Scapy in a subdirectory rather than installed system wide
+sys.path.append('Scapy') # Uncomment this if you've got Scapy in a subdirectory rather than installed system wide
 
 
 from scapy.all import *
